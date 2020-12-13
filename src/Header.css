@@ -1,0 +1,19 @@
+.header {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.header__logo {
+    object-fit: contain;
+    width: 150px;
+    margin: 28px 32px 0 32px;
+}
+
+.header__search {
+    display: flex;
+    flex: 1;
+}
